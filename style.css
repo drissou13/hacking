@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #121212;
+  color: #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.story {
+  margin-bottom: 20px;
+}
+
+.choices button {
+  background-color: #222;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.choices button:hover {
+  background-color: #00ff00;
+  color: #222;
+}
+
+.puzzle {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #00ff00;
+}
+
+.hidden {
+  display: none;
+}
+
+.log {
+  margin-top: 20px;
+  background-color: #000;
+  color: #00ff00;
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 0.9em;
+  border: 1px solid #00ff00;
+}
+
+.log p {
+  margin: 5px 0;
+}

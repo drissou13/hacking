@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker Éthique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div id="timer">Temps restant : 120s</div>
+      <div id="score">Score : 0</div>
+    </div>
+    <div id="story" class="story">
+      <h1>Hacker Éthique : Mission en cours</h1>
+      <p>Votre mission commence maintenant. Que voulez-vous faire ?</p>
+    </div>
+    <div id="puzzle" class="puzzle hidden"></div>
+    <div id="choices" class="choices"></div>
+    <div id="log" class="log"></div>
+  </div>
+  <audio id="success-sound" src="success.mp3"></audio>
+  <audio id="fail-sound" src="fail.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
